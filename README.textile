@@ -1,0 +1,11 @@
+h1. IE6Warning
+
+h2. About
+
+
+
+By Cameron Gilroy
+
+h3. Usage
+
+Place [[!IE6Warning]] in the header of the page so a to be able to give a warning to IE6 users with out having ugly "<!--[if lt IE 7]><![endif]-->" tags in the head!
