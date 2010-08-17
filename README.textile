@@ -5,6 +5,7 @@ h2. About
 * By Cameron Gilroy
 * IE6NoMore
 * Version: 1.0
+* Based in part on http://www.ie6nomore.com/
 * Creator: Cameron Gilroy http://www.camerongilroy.com
 * Support URL: http://www.camerongilroy.com/
 * GitHub: http://github.com/camgill/IE6NoMore
