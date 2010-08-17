@@ -2,10 +2,14 @@ h1. IE6NoMore
 
 h2. About
 
-
+The aim of this plugin is to help remind users of IE6 that they need to upgrade there browser!
 
 By Cameron Gilroy
 
 h3. Usage
 
-Place [[!IE6NoMore]] just after the first @<body>@ tag of the page so as to be able to give a warning to IE6 users with out having ugly "<!--[if lt IE 7]><![endif]-->" tags in your html code!
+Place [[!IE6NoMore]] just after the first @<body>@ tag of the page so as to be able to give a warning to IE6 users with out having ugly @<!--[if lt IE 7]><![endif]-->@ tags in your html code!
+
+You can also call the contents of your own chunk like this @[[!IE6NoMore? &Message=`[[$Your_Chunk_Name]]`]]@
+
+You can also use a string of text like @[[!IE6NoMore? &Message=`<h1>Go Away IE6!!</h1>`]]@
