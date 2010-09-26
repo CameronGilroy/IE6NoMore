@@ -7,7 +7,8 @@
 
 * By Cameron Gilroy
 * IE6NoMore
-* Version: 1.0
+* Version: 1.1
+* License: GNU GPL v2
 * Based in part on http://www.ie6nomore.com/
 * Creator: Cameron Gilroy http://www.camerongilroy.com
 * Support URL: http://www.camerongilroy.com/
