@@ -24,11 +24,15 @@ You can also call the contents of your own chunk like this @[[!IE6NoMore? &Messa
 
 You can also use a string of text like @[[!IE6NoMore? &Message=`<h1>Go Away IE6!!</h1>`]]@
 
+h3. Thanks!
+
+Thanks Emmanuel for helping!
+
 */
 $Message = isset($Message)? $Message : '[[$IE6NoMore]]';
 
 	$userAgent = strtolower($_SERVER["HTTP_USER_AGENT"]);
-	if ( eregi("msie 6", $userAgent) || eregi("msie 5", $userAgent) ) {
+	if( strpos($userAgent,'msie 6') || strpos($userAgent,'msie 5')) {
 	  echo "$Message"; 
 	}
 ?>
